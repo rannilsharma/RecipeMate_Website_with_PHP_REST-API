@@ -1,0 +1,2 @@
+# Block all direct browser access to this folder
+Require all denied

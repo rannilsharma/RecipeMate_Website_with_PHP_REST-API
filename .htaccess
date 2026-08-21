@@ -1,0 +1,12 @@
+# Disable directory listing
+Options -Indexes
+
+# Protect sensitive files
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# Extra protection for config.php just in case
+<Files "config.php">
+    Require all denied
+</Files>

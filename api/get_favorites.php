@@ -44,7 +44,7 @@ FROM favorite_recipes f
 JOIN recipes r ON f.recipe_id = r.id
 LEFT JOIN reviews rv ON r.id = rv.recipe_id
 WHERE f.user_id = ?
-GROUP BY r.id
+GROUP BY r.id, f.added_at
 ORDER BY f.added_at DESC
 ";
 

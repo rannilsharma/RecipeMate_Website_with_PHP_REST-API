@@ -1,6 +1,6 @@
 # RecipeMate — Website \& PHP REST API
 
-A full-stack recipe and meal planning platform built with PHP and MySQL. This repository contains the **PHP website** and the **REST API backend** that powers the [RecipeMate Flutter mobile app](#).
+A full-stack recipe and meal planning platform built with PHP and MySQL. This repository contains the **PHP website** and the **REST API backend** that powers the [Recipe Meal Planner Flutter mobile app](#).
 
 \---
 
@@ -69,7 +69,7 @@ recipe_meal_planner/
 1. Clone the repository into your XAMPP `htdocs` folder inside `recipe_meal_planner` subfolder:
 
 ```bash
-   git clone https://github.com/rannilsharma/RecipeMate_Website_with_PHP_REST-API 
+   git clone https://github.com/rannilsharma/Recipe_Meal_Planner_Website_with_PHP_REST-API 
    ```
 
 2. Start XAMPP and make sure Apache and MySQL are running.
@@ -111,7 +111,7 @@ This app is deployed using **Docker on Render** with **Aiven managed MySQL**.
 
 The `api/` folder contains PHP endpoints that serve JSON responses to the RecipeMate Flutter mobile app. All endpoints are stateless and follow REST conventions.
 
-> The Flutter mobile app repository is available here: https://github.com/rannilsharma/RecipeMate_Flutter_Mobile_App
+> The Flutter mobile app repository is available here: https://github.com/rannilsharma/Recipe_Meal_Planner_Flutter_Mobile_App
 
 \---
 

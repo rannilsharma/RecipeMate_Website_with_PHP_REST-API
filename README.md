@@ -1,6 +1,6 @@
 # RecipeMate — Website \& PHP REST API
 
-A full-stack recipe and meal planning platform built with PHP and MySQL. This repository contains the **PHP website** and the **REST API backend** that powers the [Recipe Meal Planner Flutter mobile app](#).
+A full-stack recipe and meal planning platform built with PHP and MySQL. This repository contains the **PHP website** and the **REST API backend** that powers the [Recipe Meal Planner Flutter mobile app](https://github.com/rannilsharma/Recipe_Meal_Planner_Flutter_Mobile_App).
 
 \---
 

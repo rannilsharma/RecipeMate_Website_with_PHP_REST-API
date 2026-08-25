@@ -32,7 +32,7 @@ A full-stack recipe and meal planning platform built with PHP and MySQL. This re
 ## Project Structure
 
 ```
-recipe\_meal\_planner/
+recipe_meal_planner/
 ├── api/                  # REST API endpoints for the Flutter mobile app
 │   ├── dbConnection.php  # API database connection
 │   ├── api_config.php    # API base URL config
@@ -73,7 +73,7 @@ recipe\_meal\_planner/
    ```
 
 2. Start XAMPP and make sure Apache and MySQL are running.
-3. Open MySQL Workbench or phpMyAdmin and create a database called `recipe\_portal`.
+3. Open MySQL Workbench or phpMyAdmin and create a database called `recipe_portal`.
 4. Run `createTables.sql` to create the tables, then `importData.sql` to seed the data.
 5. Open `config/config.php` — the local settings are already configured for XAMPP defaults. Update the port if yours differs.
 6. Visit `http://localhost/recipe_meal_planner/` in your browser.
